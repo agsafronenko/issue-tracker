@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const db = mongoose
+const mongo_connection = mongoose
   .connect(process.env.DB_URI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((connection) => {
     console.log(`Connected to Mongo database "${connection.connections[0].name}"`);
@@ -9,4 +9,4 @@ const db = mongoose
     console.error;
   });
 
-module.exports = db;
+module.exports = mongo_connection;
