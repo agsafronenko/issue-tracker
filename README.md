@@ -1,3 +1,13 @@
-# Issue Tracker
+## Web Page
 
-This is the boilerplate for the Issue Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/quality-assurance/quality-assurance-projects/issue-tracker
+You can view the live version of this project hosted [here](https://pebble-resisted-mailbox.glitch.me).
+
+## Issue Tracker
+
+This is a basic Issue Tracker web application that allows users to create, update, and manage issues.
+
+## Technologies Used
+
+- Node.js
+- Express.js
+- MongoDB
